@@ -27,9 +27,9 @@ code:before, code {
     text-align: left;
 }
 body {
-    animation: colorchange 50s linear 1s infinite; /* animation-name followed by duration in seconds*/
+    animation: colorchange 5s linear 1s infinite; /* animation-name followed by duration in seconds*/
        /* you could also use milliseconds (ms) or something like 2.5s */
-    -webkit-animation: colorchange 50s linear 0s infinite alternate; /* Chrome and Safari */
+    -webkit-animation: colorchange 5s linear 0s infinite alternate; /* Chrome and Safari */
   }
 
   @keyframes colorchange
