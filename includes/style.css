@@ -32,9 +32,6 @@ code:before, code {
 }
 
 body {
-    margin:0;
-    padding:0;
-    cursor:url(../assets/cursor.png),auto;
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
      -khtml-user-select: none; /* Konqueror HTML */
