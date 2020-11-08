@@ -27,14 +27,14 @@ code:before, code {
     text-align: left;
 }
 body {
-    animation: colorchange 0.1s linear 1s infinite; /* animation-name followed by duration in seconds*/
+    animation: colorchange 40s linear 1s infinite; /* animation-name followed by duration in seconds*/
        /* you could also use milliseconds (ms) or something like 2.5s */
-    -webkit-animation: colorchange 0.1s linear 0s infinite alternate; /* Chrome and Safari */
+    -webkit-animation: colorchange 20s linear 0s infinite alternate; /* Chrome and Safari */
   }
 
   img {
     /* Start the shake animation and make the animation last for 0.5 seconds */
-    animation: shake 0.5s;
+    animation: shake 50s;
   
     /* When the animation is finished, start again */
     animation-iteration-count: infinite;
@@ -42,7 +42,7 @@ body {
 
   img:hover {
     /* Start the shake animation and make the animation last for 0.5 seconds */
-    animation: shake 20s;
+    animation: shake 1s;
   
     /* When the animation is finished, start again */
     animation-iteration-count: infinite;
@@ -65,10 +65,10 @@ body {
 
   @keyframes colorchange
   {
-    0%   {background: red; color: cyan;}
-    33%  {background: green; color: magenta;}
-    66%  {background: blue; color: yellow;}
-    100% {background: red; color: cyan;}
+    0%   {background: white; color: cyan;}
+    33%  {background: #b0ffd4; color: #fab0ff;}
+    66%  {background: #b5b6ff; color: yellow;}
+    100% {background: pink; color: cyan;}
  }
 
   @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
