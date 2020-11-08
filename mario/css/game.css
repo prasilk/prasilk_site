@@ -4,6 +4,40 @@ html, body, ul, li {
   padding: 0;
 }
 
+
+body {
+  animation: colorchange 40s linear 1s infinite; /* animation-name followed by duration in seconds*/
+     /* you could also use milliseconds (ms) or something like 2.5s */
+  -webkit-animation: colorchange 20s linear 0s infinite alternate; /* Chrome and Safari */
+}
+
+@keyframes colorchange
+{
+  0%   {background: white; color: cyan;}
+  33%  {background: #b0ffd4; color: #fab0ff;}
+  66%  {background: #b5b6ff; color: yellow;}
+  100% {background: pink; color: cyan;}
+}
+
+@-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+{
+  0%   {background: white; color: cyan;}
+  33%  {background: #b0ffd4; color: #fab0ff;}
+  66%  {background: #b5b6ff; color: yellow;}
+  100% {background: pink; color: cyan;}
+}
+section {
+width: 33vw;
+margin: 0 auto;
+}
+#message {
+text-align: center;
+color: inherit;
+opacity: 75%;
+mix-blend-mode: difference;
+font-family: Cooper Black, Helvetica, Arial;
+}
+
 canvas {
   display: block;
   width: 762;

@@ -39,14 +39,6 @@ body {
     /* When the animation is finished, start again */
     animation-iteration-count: infinite;
   }
-
-  img:hover {
-    /* Start the shake animation and make the animation last for 0.5 seconds */
-    animation: shake 1s;
-  
-    /* When the animation is finished, start again */
-    animation-iteration-count: infinite;
-  }
   
   
   @keyframes shake {
@@ -73,10 +65,10 @@ body {
 
   @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
   {
-    0%   {background: red; color: cyan;}
-    33%  {background: green; color: magenta;}
-    66%  {background: blue; color: yellow;}
-    100% {background: red; color: cyan;}
+    0%   {background: white; color: cyan;}
+    33%  {background: #b0ffd4; color: #fab0ff;}
+    66%  {background: #b5b6ff; color: yellow;}
+    100% {background: pink; color: cyan;}
  }
 section {
 width: 33vw;
