@@ -57,6 +57,7 @@ body {
        -moz-user-select: none; /* Old versions of Firefox */
         -ms-user-select: none; /* Internet Explorer/Edge */
             user-select: none; 
+    background:#749448;
 }
 
 #promo_text {
@@ -98,11 +99,21 @@ body {
     position:fixed;
 }
 
+.content_custom_header {
+    font-family:Prasil_mono;
+    color:white;
+    font-size:14px;
+}
+
 @font-face {
     font-family: Prasil; 
-    src: url('Roboto-Regular.ttf');
+    src: url('WorkSans-SemiBold.ttf');
  } 
 
+ @font-face {
+    font-family: Prasil_mono; 
+    src: url('RobotoMono-Regular.ttf');
+ } 
  
 
  @font-face {
@@ -181,6 +192,22 @@ body {
     float:left;
 }
 
+.dyno_image {
+    width:50%;
+    float:right;
+    margin-right:20px;
+}
+
+.main_hr {
+    width:100%;
+    margin-top:20px;
+    margin-bottom:30px;
+    height:1px;
+    border:none;
+    background:white;
+    margin-right:50px;
+}
+
 #blog_hr {
     width:100%;
     margin-top:100px;
@@ -194,9 +221,21 @@ body {
     font-size:46px;
     color:#dbdbdb;
     float:right;
-    font-family: Prasil;
+    font-family:Prasil;
     position:fixed;
     right:50px;     
+}
+
+.main_header {
+    color:white;
+    font-family:Prasil;
+    font-size:35px;
+}
+
+.sub_header {
+    color:white;
+    font-family:Verdana;
+    font-size:15px;
 }
 
 #blog_content {
@@ -368,9 +407,8 @@ body {
 }
 
 #main {
-    margin-top:20px;
-    margin-left:230px;
-    float:left;
+    margin-top:50px;
+    margin-left:20px;
     text-align: left;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:#1c1c1c;
