@@ -13,18 +13,18 @@ body {
 
 @keyframes colorchange
 {
-  0%   {background: white; color: cyan;}
-  33%  {background: #b0ffd4; color: #fab0ff;}
-  66%  {background: #b5b6ff; color: yellow;}
-  100% {background: pink; color: cyan;}
+  0%   {background: grey; color: cyan;}
+  33%  {background: blue; color: #fab0ff;}
+  66%  {background: red; color: yellow;}
+  100% {background: green; color: cyan;}
 }
 
 @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
 {
-  0%   {background: white; color: cyan;}
-  33%  {background: #b0ffd4; color: #fab0ff;}
-  66%  {background: #b5b6ff; color: yellow;}
-  100% {background: pink; color: cyan;}
+  0%   {background: grey; color: cyan;}
+  33%  {background: blue; color: #fab0ff;}
+  66%  {background: red; color: yellow;}
+  100% {background: green; color: cyan;}
 }
 section {
 width: 33vw;
