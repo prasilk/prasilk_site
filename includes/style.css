@@ -51,7 +51,8 @@ font-family: Helvetica Neue, Helvetica, Arial;
 }
 
 body {
-    background:#749448;
+    background:black;
+    color:green;
 }
 
 #promo_text {
@@ -83,7 +84,6 @@ body {
 
 .global_links:focus{
     background:#0b5c96;
-    color:white;
 }
 
 #promotion_box {
@@ -95,7 +95,6 @@ body {
 
 .content_custom_header {
     font-family:Prasil_mono;
-    color:white;
     font-size:14px;
 }
 
@@ -198,7 +197,7 @@ body {
     margin-bottom:30px;
     height:1px;
     border:none;
-    background:white;
+    background:#149414;
     margin-right:50px;
 }
 
@@ -213,7 +212,7 @@ body {
 
 #blog_header {
     font-size:46px;
-    color:#dbdbdb;
+    color:#149414;
     float:right;
     font-family:Prasil;
     position:fixed;
@@ -221,13 +220,11 @@ body {
 }
 
 .main_header {
-    color:white;
     font-family:Prasil;
     font-size:35px;
 }
 
 .sub_header {
-    color:white;
     font-family:Verdana;
     font-size:15px;
 }
@@ -236,7 +233,7 @@ body {
     margin-top:20px;
     font-size:16px;
     font-family:robotoslab;
-    color:#262626;
+    color:#149414;
     word-spacing: 2px;
 }
 
@@ -405,7 +402,7 @@ body {
     margin-left:20px;
     text-align: left;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color:#1c1c1c;
+    color:#149414;
 }
 
 h2 {
